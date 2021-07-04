@@ -28,6 +28,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/deepanshu-goel-053594126/",
   gmail: "symaticvisuals02@gmail.com",
   twitter: "https://twitter.com/Deepans09161088",
+  discord: "https://discord.gg/8khTrtWWBT",
   // Instagram and Twitter are also supported in the links!
   display: true // Set true to display this section, defaults to false
 };

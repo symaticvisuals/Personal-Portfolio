@@ -63,6 +63,26 @@
 .instagram i {
   background-color: $instagram;
 }
+.discord {
+  color: $textColorDark;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.6rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin-bottom: 10px;
+  background-color: #222222;
+}
 
 /* Hover Transition */
 .twitter i:hover,
@@ -72,7 +92,8 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
-.stack-overflow i:hover,
+.instagram i:hover,
+.discord i:hover,
 .medium i:hover {
   background-color: $textColor;
 }

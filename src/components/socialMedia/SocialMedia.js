@@ -1,6 +1,9 @@
 import React from "react";
 import "./SocialMedia.scss";
 import {socialMediaLinks} from "../../portfolio";
+// npm install --save-dev @iconify/react @iconify-icons/simple-icons
+import {Icon} from "@iconify/react";
+import discordIcon from "@iconify-icons/simple-icons/discord";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
@@ -88,6 +91,17 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-twitter"></i>
+          <span></span>
+        </a>
+      ) : null}
+      {socialMediaLinks.discord ? (
+        <a
+          href={socialMediaLinks.discord}
+          className="icon-button discord"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon icon={discordIcon} className="fab fa-discord" />
           <span></span>
         </a>
       ) : null}
