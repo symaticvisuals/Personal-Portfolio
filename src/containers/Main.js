@@ -58,7 +58,7 @@ export default class Main extends Component {
           <Achievement />
           <Blogs />
           <Talks />
-          <Twitter />
+         
           <Podcast />
           <Profile />
 
