@@ -12,7 +12,7 @@ const illustration = {
 
 const greeting = {
   username: "Deepanshu Goel",
-  title: "Hi all, I'm Deepanshu",
+  title: "Hi, I'm Deepanshu",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 and a UI/UX Designer.I am having an experience of building Web pplications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
