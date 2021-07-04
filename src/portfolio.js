@@ -14,7 +14,7 @@ const greeting = {
   username: "Deepanshu Goel",
   title: "Hi, I'm Deepanshu",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 and a UI/UX Designer.I am having an experience of building Web pplications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 and a UI/UX Designer. I am having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/16QxsiVGSIvyHTO8fmIXe6a8HX1BorbeH/view?usp=sharing",
@@ -198,7 +198,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  
+
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
