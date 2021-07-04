@@ -154,8 +154,8 @@ const workExperiences = {
     {
       role: "Software Developer Intern",
       company: "4-Art",
-      companylogo: require("./assets/images/4Art.png"),
-      date: "Jan 2015 – Sep 2015",
+      companylogo: require("./assets/images/4Art.jpeg"),
+      date: "June 2021 – Present",
       desc: "4art Ltd is a publishing company specializing in teaching aids for professional art education, art albums and manuals for art students and art professionals.",
       descBullets: [
         "Developing Portal for Student's Interactive with the Teachers.",
@@ -176,7 +176,7 @@ const workExperiences = {
     {
       role: "Freelancer",
       company: "Eduplug",
-      companylogo: require("./assets/images/eduplug.png"),
+      companylogo: require("./assets/images/eduplug.jpeg"),
       date: "April 2021 – Present",
       desc: "",
       descBullets: [
@@ -190,8 +190,8 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: false, // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
