@@ -39,7 +39,11 @@
   line-height: 1.1;
   color: $textColor !important;
 }
-
+.dark-greeting-text {
+  font-size: 70px;
+  line-height: 1.1;
+  color: white;
+}
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
@@ -96,6 +100,10 @@
     justify-content: space-around;
   }
   .greeting-text {
+    font-size: 30px;
+    text-align: center;
+  }
+  .dark-greeting-text {
     font-size: 30px;
     text-align: center;
   }
