@@ -155,9 +155,9 @@ const workExperiences = {
     {
       role: "Software Developer Intern",
       company: "4-Art",
-      companylogo: require("./assets/images/4Art.jpeg"),
+
       date: "June 2021 – Present",
-      desc: "4art Ltd is a publishing company specializing in teaching aids for professional art education, art albums and manuals for art students and art professionals.",
+      desc: "4art Ltd is a publishing company specializing in teaching aids for professional art education.",
       descBullets: [
         "Developing Portal for Student's Interactive with the Teachers.",
         "Designing User Interface of the Application"
@@ -179,7 +179,7 @@ const workExperiences = {
       company: "Eduplug",
       companylogo: require("./assets/images/eduplug.jpeg"),
       date: "April 2021 – Present",
-      desc: "",
+      desc: "Building Creative Designs for the different clients.",
       descBullets: [
         "Building Creative Designs for the dedicated clients of the company."
       ]
