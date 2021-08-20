@@ -29,7 +29,6 @@ export default function Contact() {
                 isDark ? "dark-mode contact-text-div" : "contact-text-div"
               }
             >
-              
               <br />
               <a
                 className="contact-detail-email"
@@ -39,7 +38,22 @@ export default function Contact() {
               </a>
               <br />
               <br />
-              <SocialMedia />
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "baseline"
+                }}
+              >
+                <button
+                  data-tf-popup="SSXqwLJC"
+                  data-tf-auto-close="2000"
+                  className="button"
+                  style={{marginRight: "10px"}}
+                >
+                  Contact Me
+                </button>
+                <SocialMedia />
+              </div>
             </div>
           </div>
           <div className="contact-image-div">

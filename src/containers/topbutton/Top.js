@@ -20,7 +20,7 @@ export default function Top() {
   window.onscroll = function () {
     scrollFunction();
   };
-  window.onload = function () {
+  window.onload = function () { 
     scrollFunction();
   }; //To make sure that this button is not visible at starting.
   // When the user clicks on the button, scroll to the top of the document

@@ -51,7 +51,28 @@
   margin-left: 1.5rem;
   margin-top: -4rem;
 }
-
+.button {
+  all: unset;
+  font-family: "Montserrat";
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #6600ff;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 0 33px;
+  margin-right: 10px;
+  font-weight: bold;
+  height: 50px;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+}
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
   .contact-title {
