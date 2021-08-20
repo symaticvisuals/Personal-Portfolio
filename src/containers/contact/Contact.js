@@ -38,12 +38,7 @@ export default function Contact() {
               </a>
               <br />
               <br />
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "baseline"
-                }}
-              >
+              <div className="button-div">
                 <button
                   data-tf-popup="SSXqwLJC"
                   data-tf-auto-close="2000"

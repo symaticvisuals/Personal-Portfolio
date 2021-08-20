@@ -58,13 +58,12 @@
   max-width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  // text-overflow: ellipsis;
   background-color: #6600ff;
   color: #ffffff;
   font-size: 20px;
   border-radius: 25px;
   padding: 0 33px;
-  margin-right: 10px;
   font-weight: bold;
   height: 50px;
   cursor: pointer;
@@ -72,6 +71,10 @@
   text-align: center;
   margin: 0;
   text-decoration: none;
+}
+.button-div {
+  display: "flex";
+  align-items: "baseline";
 }
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
@@ -104,5 +107,13 @@
 
   .contact-image-div {
     display: none;
+  }
+  .button {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+
+  .button-div {
+    display: block;
   }
 }
