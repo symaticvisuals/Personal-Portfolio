@@ -69,12 +69,13 @@
   cursor: pointer;
   line-height: 50px;
   text-align: center;
-  margin: 0;
+
   text-decoration: none;
 }
 .button-div {
-  display: "flex";
-  align-items: "baseline";
+  display: flex !important;
+
+  margin-bottom: 10px;
 }
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
@@ -108,12 +109,11 @@
   .contact-image-div {
     display: none;
   }
+  .button-div {
+    display: block !important;
+  }
   .button {
     font-size: 15px;
     margin-bottom: 15px;
-  }
-
-  .button-div {
-    display: block;
   }
 }
