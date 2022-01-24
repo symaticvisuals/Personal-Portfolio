@@ -24,6 +24,11 @@ function Header() {
 
   return (
     <Headroom>
+      <div
+        style={{textAlign: "center", padding: "10px 0", background: "#6600ff"}}
+      >
+        V2 COMING SOON
+      </div>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="/" className="logo">
           <span className="grey-color"> &lt;</span>
